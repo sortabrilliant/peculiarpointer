@@ -15,7 +15,8 @@ const { name, category, attributes } = metadata;
 
 registerBlockType( name, {
 	title: 'Peculiar Pointers',
-	description: '',
+	description:
+		'Make your WordPress site a little weird by adding a peculiar pointer.',
 	keywords: [ 'container' ],
 	icon,
 	category,

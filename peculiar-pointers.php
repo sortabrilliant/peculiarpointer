@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Peculiar Pointers
  * Plugin URI:  https://sortabrilliant.com/peculiar-pointers/
- * Description:
+ * Description: Make your WordPress site a little weird by adding a peculiar pointer.
  * Author:      sorta brilliant
  * Author URI:  https://sortabrilliant.com/
  * Version:     1.0.0
