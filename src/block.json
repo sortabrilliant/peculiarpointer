@@ -1,0 +1,12 @@
+{
+	"name": "sortabrilliant/peculiar-pointers",
+	"category": "common",
+	"attributes": {
+		"url": {
+			"type": "string"
+		},
+		"id": {
+			"type": "number"
+		}
+	}
+}
