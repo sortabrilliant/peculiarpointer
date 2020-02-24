@@ -1,7 +1,12 @@
 /**
  * WordPress dependencies
  */
-import { IconButton, Toolbar, withNotices } from '@wordpress/components';
+import {
+	IconButton,
+	ExternalLink,
+	Toolbar,
+	withNotices,
+} from '@wordpress/components';
 import {
 	BlockControls,
 	BlockIcon,
@@ -18,6 +23,11 @@ import { Component } from '@wordpress/element';
 import icon from './icon';
 
 const ALLOWED_MEDIA_TYPES = [ 'image' ];
+const LABELS = {
+	title: 'Peculiar Pointers',
+	instructions:
+		'Upload an image or pick one from your media library. The recommended image size is 64x64px and the max is 128x128px.',
+};
 
 class PeculiarPointersEdit extends Component {
 	constructor() {
@@ -50,17 +60,26 @@ class PeculiarPointersEdit extends Component {
 				<MediaPlaceholder
 					icon={ <BlockIcon icon={ icon } /> }
 					className={ className }
-					labels={ {
-						title: 'Peculiar Pointers',
-						instructions:
-							'Upload an image or pick one from your media library.',
-					} }
+					labels={ LABELS }
 					onSelect={ this.onSelectImage }
 					accept="image/*"
 					allowedTypes={ ALLOWED_MEDIA_TYPES }
 					notices={ noticeUI }
 					onError={ noticeOperations.createErrorNotice }
-				/>
+				>
+					<div className="components-placeholder__discover">
+						<span className="components-placeholder__label">
+							Where can I find cursors?
+						</span>
+						<span>
+							Our mission is to make WordPress weird so we’ve
+							created a gallery of cursors for you to use here:{ ' ' }
+							<ExternalLink href="https://weirdpress.club/pointers">
+								https://weirdpress.club/pointers
+							</ExternalLink>
+						</span>
+					</div>
+				</MediaPlaceholder>
 			);
 		}
 
