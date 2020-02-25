@@ -83,6 +83,11 @@ class PeculiarPointersEdit extends Component {
 			);
 		}
 
+		const styles = {
+			cursor: `url(${ url }) 0 0, pointer`,
+			cursor: `-webkit-image-set(url(${ url }) 1x, url(${ url }) 2x) 0 0, pointer`,
+		};
+
 		return (
 			<>
 				<BlockControls>
@@ -106,7 +111,7 @@ class PeculiarPointersEdit extends Component {
 				</BlockControls>
 				<div
 					className="wp-block-peculiar-pointers-container"
-					style={ { cursor: `url(${ url }),auto` } }
+					style={ styles }
 				>
 					<InnerBlocks />
 				</div>
