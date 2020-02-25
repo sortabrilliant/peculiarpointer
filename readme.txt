@@ -13,8 +13,6 @@ Make your WordPress site a little weird by adding a peculiar pointer.
 == Description ==
 The Peculiar Pointers block is a container block where everything inside that container will display a custom cursor. Just upload your pointer and then fill the container with whatever blocks you want. It's that easy.
 
-We support the use of PNGs and SVGs. If you want to use SVGs (which we recommend) you'll need to install the [Safe SVG plugin](https://wordpress.org/plugins/safe-svg/) as by default WordPress doesn't support the uploading of SVGs.
-
 #### I need pointers on where to find pointers.
 Don't worry, we got you covered. Just head on over to the [WeirdPress cursor collection](https://weirdpress.club/pointers) and see all the weird stuff we have for you. 
 
@@ -23,3 +21,4 @@ Don't worry, we got you covered. Just head on over to the [WeirdPress cursor col
 
 == Changelog ==
 * 1.0.0 Initial Commit
+
