@@ -5,7 +5,7 @@
  * Description: Make your WordPress site a little weird by adding a peculiar pointer.
  * Author:      sorta brilliant
  * Author URI:  https://sortabrilliant.com/
- * Version:     1.0.0
+ * Version:     1.0.1
  * License:     GPL-2.0-or-later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  *
